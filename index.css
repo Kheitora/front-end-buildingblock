@@ -1,0 +1,148 @@
+#blok1
+{
+    height: 290px;
+    width:500px;
+
+    margin: auto;
+    margin-top: 237px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-width: 5px;
+    overflow: auto;
+}
+
+#menu
+{
+    height: 725px;
+    width: 150px;
+    background-color: transparent;
+    float: left;
+}
+
+#blok2
+{
+    height: 725px;
+    width: 1503px;
+
+}
+
+#blok3
+{
+    height: 110px;
+    width: 65px;
+    float: left;
+    border-top-style: solid;
+    background-image: url("profiel.jpg");
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-width: 5px;
+    background-color: #6699ff
+}
+
+#blok5
+{
+    background-color: blue;
+    width: 500px;
+    height: 250px;
+    overflow: auto;
+    margin: auto;
+    margin-top: 237px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-width: 5px;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    height: 100;
+    width: 100;
+    background-image: url("achtergrond.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover
+}
+
+
+
+p
+{
+    color: black;
+    font-size: 75%;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1
+{
+    color: black;
+    font-size: 100%;
+
+}
+
+h2
+{
+    color: black;
+    font-size: 75%;
+}
+
+h3
+{
+    color: transparent;
+}
+
+h5
+{
+    color: black;
+    font-size: 100%;
+
+}
+
+center
+{
+
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+#menulist
+{
+    height: 200px;
+    width: 125px;
+    background-color: transparent;
+    border-top-style: solid;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+}
+
+#Social
+{
+    height: 200px;
+    width: 10px;
+    background-color: transparent;
+    text-align: center;
+    float: left;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
